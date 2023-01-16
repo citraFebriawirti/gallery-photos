@@ -9,7 +9,7 @@ import NotFound from "./routes/NotFound";
 const App = () => {
   return (
     <>
-      <div className=" home">
+      <div className="">
         <nav className="bg-amber-100 border-gray-500 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
           <div className=" container flex flex-wrap items-center justify-between mx-auto">
             <Link to="/" className="flex items-center">
