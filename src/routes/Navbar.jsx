@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div>
         <div className="">
-        <nav className="bg-amber-100 border-gray-500 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+        <nav className="bg-amber-100 border-gray-500 px-2 sm:px-4 py-2.5 rounded ">
           <div className=" container flex flex-wrap items-center justify-between mx-auto">
             <Link to="/" className="flex items-center">
               <img
