@@ -11,9 +11,9 @@ const Photos = () => {
   const [error, setError] = useState(null);
 
   const deletePhoto = (id) => {
-    // TODO: answer here
+    // methode DELETE
     fetch(`https://gallery-app-server.vercel.app/photos/${id}`, {
-      method: "DELETE", // HTTP method menggunakan PUT
+      method: "DELETE", // HTTP method menggunakan DELETE
     })
       .then((res) => res.json())
       .then((deletedTos) => {
@@ -25,9 +25,8 @@ const Photos = () => {
 
   useEffect(() => {
     setLoading(true);
-    // TODO: answer here
       // mengset data dengan url 
-      const SetParams = { _sort: "id", _order: `${sort}`, q: `${submited}` }
+    const SetParams = { _sort: "id", _order: `${sort}`, q: `${submited}` }
     const URLParams = new URLSearchParams(SetParams);
       fetch(`https://gallery-app-server.vercel.app/photos?${URLParams}`)
         .then((res) => res.json())
@@ -45,8 +44,7 @@ const Photos = () => {
 
   useEffect(() => {
     setLoading(true);
-    // TODO: answer here
-     // mengset data dengan url 
+    // mengset data dengan url 
     //https://api.jsonbin.io/v3/b/63bfc5de01a72b59f2489428
     //  fetch("http://localhost:3001/photos/")
     fetch("https://gallery-app-server.vercel.app/photos/", {
@@ -66,7 +64,7 @@ const Photos = () => {
   return (
     <>
       <div className="containerr">
-        <div className="flex justify-center mr-20  lg:mr-0 lg:justify-between ">
+        <div className="flex justify-center lg:mr-0 lg:justify-between ">
           <select
             onChange={(e) => setSort(e.target.value)}
             data-testid="sort"
