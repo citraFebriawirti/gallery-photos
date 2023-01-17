@@ -62,7 +62,7 @@ const EditPhoto = () => {
       ) : (
         <div className="containerr">
           <form className="edit-form" onSubmit={editPhoto}>
-            <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+            <label className="block mb-2 text-sm font-medium dark:text-white">
               Image Url:
               <input
                 className=" w-full mt-5 border-2 border-bg-[#dbdbdb] h-8 rounded-sm mr-2 bg-white lg:w-full"
