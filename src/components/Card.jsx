@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Card = ({ photo, deletePhoto }) => {
   return (
     <div className="gridd ">
-      <div className=" my-3 p-3 w-3/5 mx-10 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 lg:w-full lg:mx-0">
+      <div className=" my-3 p-3 w-3/5 mx-10 bg-white border border-gray-200 rounded-lg shadow-md  dark:border-gray-700 lg:w-full lg:mx-0">
       <img className=" w-90 object-cover" src={photo.imageUrl} alt={photo.id} />
       <div className=" bg-white p-2">
         <p className=" text-base bg-white mb-4" data-testid="photo-caption">
