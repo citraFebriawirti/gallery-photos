@@ -11,7 +11,7 @@
 
 ## Description
 
-[![Video Preview](https://drive.google.com/file/d/1vUfVdAJsMg3oZWPwC6QbW5rjqZrobAw2/view?usp=sharing)](hhttps://drive.google.com/file/d/1vUfVdAJsMg3oZWPwC6QbW5rjqZrobAw2/view?usp=sharing)
+[![Gambar Project](./public/Image/content/preview.PNG)](https://drive.google.com/file/d/1vUfVdAJsMg3oZWPwC6QbW5rjqZrobAw2/view?usp=sharing)
 Klik gambar untuk melihat video preview
 
 Untuk final project kali ini, terdapat sisi _client_ dan _server_. Pada sisi server berada pada folder `server` dan kalian hanya diminta untuk menjalankannya dengan perintah `npm run start:server`. Sedangkan untuk sisi _client_ kalian diminta untuk membuat **CRUD** dengan ketentuan dibawah ini.
@@ -72,7 +72,7 @@ Untuk proses _read by id_ kalian diminta untuk mengerjakan pada file `EditPhoto.
 http://localhost:3001/photos/<photo id>
 ```
 
-Ketika data dari server sudah di dapat maka secara otomatis akan di tampilkan pada `form`. 
+Ketika data dari server sudah di dapat maka secara otomatis akan di tampilkan pada `form`.
 
 ### Update - `PATCH`
 
