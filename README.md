@@ -12,7 +12,6 @@
 ## Description
 
 [![Gambar Project](./public/Image/content/preview.PNG)](https://drive.google.com/file/d/1vUfVdAJsMg3oZWPwC6QbW5rjqZrobAw2/view?usp=sharing)
-Klik gambar untuk melihat video preview
 
 Untuk final project kali ini, terdapat sisi _client_ dan _server_. Pada sisi server berada pada folder `server` dan kalian hanya diminta untuk menjalankannya dengan perintah `npm run start:server`. Sedangkan untuk sisi _client_ kalian diminta untuk membuat **CRUD** dengan ketentuan dibawah ini.
 
@@ -26,6 +25,8 @@ Untuk proses _create_ kalian diminta untuk mengerjakan pada file `AddPhoto.jsx`,
 
 ```txt
 http://localhost:3001/photos
+atau
+https://gallery-app-server.vercel.app/photos
 ```
 
 Kalian diminta untuk melakukan _create new data_ yang akan dikirim ke server. Data yang perlu kalian buat terdiri dari beberapa hal, yaitu:
@@ -56,6 +57,8 @@ Untuk proses _read all_ kalian diminta untuk mengerjakan pada file `Photos.jsx`,
 
 ```txt
 http://localhost:3001/photos
+atau
+https://gallery-app-server.vercel.app/photos
 ```
 
 Setiap kali component `Photos` dirender maka secara otomatis data akan langsung di tampilkan. Pada file ini juga kalian diminta untuk melakukan _sort by id_ dan _search_ data yang akan dilakukan pada server dengan cara melempar _query params_ pada url dengan format berikut:
@@ -70,6 +73,8 @@ Untuk proses _read by id_ kalian diminta untuk mengerjakan pada file `EditPhoto.
 
 ```txt
 http://localhost:3001/photos/<photo id>
+atau
+https://gallery-app-server.vercel.app/photos <photo id>
 ```
 
 Ketika data dari server sudah di dapat maka secara otomatis akan di tampilkan pada `form`.
@@ -80,6 +85,8 @@ Untuk proses _update_ kalian diminta untuk mengerjakan pada file `EditPhoto.jsx`
 
 ```txt
 http://localhost:3001/photos/<photo id>
+atau
+https://gallery-app-server.vercel.app/photos <photo id>
 ```
 
 Kalian diminta untuk melakukan _update data_ yang akan dikirim ke server. Data yang perlu kalian _update_ terdiri dari beberapa hal, yaitu:
@@ -104,6 +111,8 @@ Untuk proses _delete_ kalian diminta untuk mengerjakan pada file `Photos.jsx` di
 
 ```txt
 http://localhost:3001/photos/<photo id>
+atau
+https://gallery-app-server.vercel.app/photos <photo id>
 ```
 
 Pastikan setiap kali data dihapus maka data tersebut langsung hilang dari tampilan di _browser_ tanpa perlu dilakukan _refresh_.
