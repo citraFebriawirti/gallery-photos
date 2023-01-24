@@ -11,7 +11,7 @@
 
 ## Description
 
-[![Video Preview](https://drive.google.com/uc?id=1sLjiGLVE4fMg1Je8j0ocYYUtctLUrT1V)](https://drive.google.com/file/d/1MMAHfngYMde-lTOsJZ96o4YnSIxRhttE/view?usp=sharing)
+[![Video Preview](https://drive.google.com/file/d/1vUfVdAJsMg3oZWPwC6QbW5rjqZrobAw2/view?usp=sharing)](hhttps://drive.google.com/file/d/1vUfVdAJsMg3oZWPwC6QbW5rjqZrobAw2/view?usp=sharing)
 Klik gambar untuk melihat video preview
 
 Untuk final project kali ini, terdapat sisi _client_ dan _server_. Pada sisi server berada pada folder `server` dan kalian hanya diminta untuk menjalankannya dengan perintah `npm run start:server`. Sedangkan untuk sisi _client_ kalian diminta untuk membuat **CRUD** dengan ketentuan dibawah ini.
